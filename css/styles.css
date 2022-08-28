@@ -1,0 +1,204 @@
+/*===== GLOBAL ===== */
+:root {
+    --body-background-color: #ffffff;
+    --dark-text-color: #212121;
+    --bright-text-color: #757575;
+    --blue-text-color: #2196f3;
+    --footer-background-color: #2f303a;
+    --button-primary-color: #2196f3;
+    --button-secondary-color: #f5f4fa;
+}
+
+body {
+    color: var(--dark-text-color, #212121);
+    background-color: var(--body-background-color, #ffffff);
+    font-family: "Roboto", sans-serif;
+    width: 1600px;
+}
+
+.logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 192;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.blue-text {
+    color: var(--blue-text-color);
+}
+
+/*===== END GLOBAL ===== */
+
+/*===== HEADER/NAVIGATION ===== */
+
+.black {
+    color: black;
+}
+
+.nav-link {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 142;
+    text-decoration: none;
+}
+
+.active {
+    color: var(--blue-text-color);
+}
+
+.header-contact {
+    color: var(--bright-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 142;
+    text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.header-contact:hover,
+.header-contact:focus {
+    color: var(--blue-text-color);
+}
+
+/* ===== END HEADER ===== */
+
+/* ===== MAIN ===== */
+
+.main-header {
+    background-color: #2f303a;
+}
+
+.main-header-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.main-header-button {
+    background-color: var(--button-primary-color);
+    color: #ffffff;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1, 875;
+    letter-spacing: 0.06em;
+    border: none;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1, 142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.main-text {
+    font-size: 14px;
+    line-height: 1, 714;
+    letter-spacing: 0.03em;
+    color: var(--bright-text-color);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1, 166;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--dark-text-color);
+}
+
+.team-section {
+    background: #f5f4fa;
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1, 1875;
+    letter-spacing: 0.03em;
+    color: var(--dark-text-color);
+}
+
+.team-description {
+    font-size: 16px;
+    line-height: 1, 1875;
+    letter-spacing: 0.03em;
+    color: var(--bright-text-color);
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-description {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--bright-text-color);
+}
+
+.filter-button {
+    cursor: pointer;
+    background: var(--button-secondary-color);
+    border-radius: 4px;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1, 625;
+    letter-spacing: 0.03em;
+    border: none;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    color: #ffffff;
+    background-color: var(--button-primary-color);
+}
+/* ===== END MAIN ===== */
+
+/* ===== FOOTER ===== */
+
+.white {
+    color: #ffffff;
+}
+
+.footer {
+    background: var(--footer-background-color);
+}
+
+.footer-address {
+    font-size: 14px;
+    line-height: 1, 714;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+
+.footer-contact {
+    font-size: 14px;
+    line-height: 1, 714;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+    color: var(--blue-text-color);
+}
+/* ===== END FOOTER ===== */
