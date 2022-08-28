@@ -1,4 +1,9 @@
 /*===== GLOBAL ===== */
+
+* {
+    margin: 0;
+}
+
 :root {
     --body-background-color: #ffffff;
     --dark-text-color: #212121;
