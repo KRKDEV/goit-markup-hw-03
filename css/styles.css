@@ -145,19 +145,34 @@ body {
     margin-bottom: 200px;
 }
 
-.main-title {
+.article-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1, 142;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
-.main-text {
+.article-text {
     font-size: 14px;
-    line-height: 1, 714;
+    line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--bright-text-color);
+}
+
+.article-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.article-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.article-menu li:not(:last-child) {
+    margin-right: 30px;
 }
 
 .section-title {
@@ -167,10 +182,37 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--dark-text-color);
+    margin-bottom: 50px;
 }
 
+.about-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.about-section {
+    padding-bottom: 94px;
+}
 .team-section {
     background: #f5f4fa;
+}
+
+.team-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.team-menu li {
+    display: block;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-title {
@@ -179,6 +221,8 @@ body {
     line-height: 1, 1875;
     letter-spacing: 0.03em;
     color: var(--dark-text-color);
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .team-description {
@@ -186,6 +230,12 @@ body {
     line-height: 1, 1875;
     letter-spacing: 0.03em;
     color: var(--bright-text-color);
+    margin-bottom: 30px;
+}
+
+.team-section .container {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .portfolio-title {
