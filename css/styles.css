@@ -62,8 +62,9 @@ body {
 
 .header .container {
     display: flex;
-    height: 80px;
     align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .nav-link {
     color: #212121;
