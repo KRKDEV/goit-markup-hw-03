@@ -197,6 +197,8 @@ body {
 }
 .team-section {
     background: #f5f4fa;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .team-menu {
@@ -231,11 +233,6 @@ body {
     letter-spacing: 0.03em;
     color: var(--bright-text-color);
     margin-bottom: 30px;
-}
-
-.team-section .container {
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .portfolio-title {
@@ -279,6 +276,8 @@ body {
 
 .footer {
     background: var(--footer-background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-address {
@@ -286,9 +285,11 @@ body {
     line-height: 1, 714;
     letter-spacing: 0.03em;
     color: #ffffff;
+    margin-top: 20px;
 }
 
 .footer-contact {
+    display: block;
     font-size: 14px;
     line-height: 1, 714;
     letter-spacing: 0.03em;
@@ -296,8 +297,18 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-menu li {
+    margin-top: 9px;
+}
+
 .footer-contact:hover,
 .footer-contact:focus {
     color: var(--blue-text-color);
+}
+
+.footer-menu {
+    display: block;
+    list-style: none;
+    padding: 0;
 }
 /* ===== END FOOTER ===== */
