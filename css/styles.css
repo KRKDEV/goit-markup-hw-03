@@ -16,10 +16,7 @@
 
 body {
     color: var(--dark-text-color, #212121);
-    /* background-color: var(--body-background-color, #ffffff); */
-    background: #e5e5e5;
     font-family: "Roboto", sans-serif;
-    width: 1600px;
     margin: auto;
 }
 
@@ -111,13 +108,17 @@ body {
 
 /* ===== MAIN - STUDIO ===== */
 
-.main-header {
+.slider-section {
     background-color: #2f303a;
     text-align: center;
-    padding-top: 200px;
 }
 
-.main-header-title {
+.slider-section .container {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.slider-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1, 363;
@@ -126,10 +127,10 @@ body {
     text-transform: uppercase;
     color: #ffffff;
     width: 696px;
-    margin-left: 452px;
+    margin: auto;
 }
 
-.main-header-button {
+.slider-button {
     background-color: var(--button-primary-color);
     color: #ffffff;
     cursor: pointer;
@@ -144,7 +145,6 @@ body {
     letter-spacing: 0.06em;
     border: none;
     margin-top: 30px;
-    margin-bottom: 200px;
 }
 
 .article-title {
